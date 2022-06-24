@@ -1,9 +1,10 @@
 <template>  
     <nav>
         <ul>
-            <li><router-link to="/">Inicio</router-link></li>
-            <li><router-link to="/Counter">1. Contador</router-link></li>
-            <li><router-link to="/Decider">2. Decididor</router-link></li>
+            <li><router-link to="/">Home</router-link></li>
+            <li><router-link to="/Counter">1. Counter</router-link></li>
+            <li><router-link to="/Decider">2. Decider</router-link></li>
+            <li><router-link to="/GuessGame">3. Guess Game</router-link></li>
         </ul>
     </nav>
 </template>

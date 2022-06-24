@@ -3,12 +3,14 @@ import { createRouter, createWebHashHistory } from 'vue-router';
 import Homepage from '../components/Homepage.vue';
 import Counter from '../components/Counter.vue';
 import Decider from '../components/Decider.vue';
+import GuessGame from '../components/GuessGame/GuessGame';
 import NotFound from '../pages/NotFound.vue';
 
 const routes = [
   { path: '/', component: Homepage },
   { path: '/Counter', component: Counter },
   { path: '/Decider', component: Decider },
+  { path: '/GuessGame', component: GuessGame },
   { path: '/:pathMatch(.*)*', component: NotFound },
 ]
 
