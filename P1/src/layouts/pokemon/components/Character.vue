@@ -1,5 +1,4 @@
 <template>
-    <p>Acá va la imagen del personaje</p>
     <div class="ctn_characterImg">
         <img v-if="showCharacter" class="characterImg fade-in" :src="imgSrc" alt="Marvel Character Silhouette">
         <img v-else class="characterImg hidden-character" :src="imgSrc" alt="Marvel Character Silhouette">
@@ -31,13 +30,12 @@ export default {
     /*scoped indicates that these styles are not global*/
     .ctn_characterImg {
         position: relative;
-        width: 100%;
         padding: 50px 20px;
     }
     .characterImg {
         width: 80vw;
         max-width: 900px;
-        max-height: 50vh;
+        max-height: 40vh;
         height: auto;
         object-fit: contain;
     } .hidden-character {

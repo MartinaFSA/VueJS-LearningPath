@@ -1,5 +1,5 @@
 import { shallowMount } from '@vue/test-utils';
-import Counter from '@/components/Counter.vue';
+import Counter from '@/pages/Counter.vue';
 
 describe('Counter component tests', () => {
     let wrapper;

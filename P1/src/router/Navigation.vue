@@ -22,21 +22,21 @@ nav {
     max-width: 100vw;
     margin-bottom: 30px;
     background-color: #2c3e50;
-}
-nav li {
+} nav li {
     list-style: none;
     color: #fafafa;
     display: inline-block;
     padding-left: 10px;
-}
-nav a {
+} nav a {
     color: unset;
-}
-nav > ul {
+    text-decoration: none;
+} nav > ul {
     display: flex;
     width: 100%;
     margin: 0%;
     padding: 0%;
     justify-content: space-between;
+} nav li:hover, nav .router-link-active, nav .router-link-exact-active {
+    text-decoration: underline;
 }
 </style>

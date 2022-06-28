@@ -1,6 +1,5 @@
 <template>
   <Navigation></Navigation>
-  <img alt="Vue logo" id="vueImg" src="./assets/logo.png">
   <main>
     <div>
       <router-view></router-view>
@@ -36,5 +35,7 @@ export default {
     padding: 0px 20px 50px;
   } main > div {
     max-width: 1200px;
+  } .capitalize {
+    text-transform: capitalize;
   }
 </style>
